@@ -14090,7 +14090,6 @@ function formatSarifToolDriverRules(results) {
         },
 	properties: {
               'security-severity': severtytocvss,
-	      'partialFingerprints': vuln.packageVersion
         },
       };
     });
